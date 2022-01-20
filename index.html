@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@1,600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Título</title>
 </head>
@@ -73,7 +74,7 @@
     <section id="nosotros">
         <h2>NUESTRO DEPORTE</h2> <!-- Carousel con imagenes -->
         <div class="grid-deporte">
-            <div class="grid-deporte1">
+            <div class="grid-deporte1" data-aos="fade-right">
                 <iframe width="840" height="472" src="https://www.youtube.com/embed/fQ8oi8dhZjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             </div>
             <div class="grid-deporte2">
@@ -84,7 +85,7 @@
                     </p>
                 </p>
             </div>
-            <div class="grid-deporte3">
+            <div class="grid-deporte3" data-aos="fade-right">
                 <img width="840" height="472"> <!-- Imagenes de la escuela de tiro con arco -->
             </div>
             <div class="grid-deporte4">
@@ -100,7 +101,7 @@
 
     <section id="categorias">
         <h2>CATEGORÍAS</h2>
-        <div class="recurvo-olimpico">
+        <div class="recurvo-olimpico" data-aos="fade-right">
             <!-- Carousel de imágenes y videos // o simplemente una imagen/video -->
             <iframe width="840" height="472" src="https://www.youtube.com/embed/FR_tmXjJ4p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
@@ -110,7 +111,7 @@
                 </p>
             </p>
         </div>
-        <div class="compuesto-video">
+        <div class="compuesto-video" data-aos="fade-right">
             <!-- Carousel de imágenes y videos // o simplemente una imagen/video -->
             <iframe width="840" height="472" src="https://www.youtube.com/embed/wyFvtExiEvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
@@ -120,7 +121,7 @@
                 </p>
             </p>
         </div>
-        <div class="raso-video">
+        <div class="raso-video" data-aos="fade-right">
             <!-- Carousel de imágenes y videos // o simplemente una imagen/video -->
             <iframe width="840" height="472" src="https://www.youtube.com/embed/OoszhkwXv4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
@@ -130,7 +131,7 @@
                 </p>
             </p>
         </div>
-        <div class="tradicional-video">
+        <div class="tradicional-video" data-aos="fade-right">
             <!-- Carousel de imágenes y videos // o simplemente una imagen/video -->
             <iframe width="840" height="472" src="https://www.youtube.com/embed/Z4WQD_up15w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
             <p>
@@ -144,7 +145,7 @@
 
     <section id="torneos">
         <h2>TORNEOS</h2>
-        <div class="nuestras-participaciones">
+        <div class="nuestras-participaciones" data-aos="fade-right">
             <img width="840" height="472" src="src\assets\img\caee2.jpg" alt=""> <!-- Imágenes del club en un torneo -->
             <p>
                 <h3 class="participaciones">NUESTRAS PARTICIPACIONES</h3>
@@ -153,7 +154,7 @@
                 </p>
             </p>
         </div>
-        <div class="seleccion-nacional">
+        <div class="seleccion-nacional" data-aos="zoom-in">
             <img width="840" height="472" src="src\assets\img\argentina2.jpg" alt=""> <!-- Imágenes de la selección argentina y las participaciones en la selección -->
             <!-- <img width="600" height="400" src="src\assets\img\argentina.jpg" alt=""> -->
             <p>
@@ -190,5 +191,11 @@
             </li>
         </ul>
     </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+
 </body>
 </html>
