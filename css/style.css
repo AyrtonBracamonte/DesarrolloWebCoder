@@ -7,7 +7,7 @@
 }
 
 body{
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(255, 255, 255);
     font-size: 16px;
 }
 
@@ -133,7 +133,7 @@ h3 {
     }
     .grid-deporte2 { grid-area: 1 / 2 / 2 / 3;
         width: 600px; 
-        padding-top: 180px;
+        padding-top: 120px;
         padding-left: 150px;
         font-size: 25px;
         text-align: center;
@@ -144,52 +144,11 @@ h3 {
     }
     .grid-deporte4 { grid-area: 2 / 2 / 3 / 3; 
         width: 600px; 
-        padding-top: 180px;
+        padding-top: 120px;
         padding-left: 150px;
         font-size: 25px;
         text-align: center;
     }
-
-/* .historia {
-    width: 342px;
-    height: 100px;
-    position: relative;
-    top: 100px; 
-    left: 151px;
-}
-
-.historia-texto {
-    font-size: 25px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    position: relative;
-    top: 160px; 
-    left: -220px;
-}
-
-.nuestra-escuela {
-    display: inline-flex;
-    padding-top: 50px;
-    padding-left: 15%;
-}
-
-.escuela {
-    width: 210px;
-    position: relative;
-    top: 100px; 
-    left: 210px;
-}
-
-.escuela-texto {
-    font-size: 25px;
-    text-align: center;
-    width: 400px;
-    height: 100px;
-    position: relative;
-    top: 160px; 
-    left: -100px;
-} */
 
 /* Seccion categorias */
 
