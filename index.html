@@ -1,292 +1,338 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
+<html>
+
+  <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- BOOTSTRAP -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> 
 
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/style2.css">
 
-    <!-- FUENTES -->
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,100;1,500&display=swap" rel="stylesheet">
 
-    <!-- ANIMACIONES -->
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico">
 
-    <title>Arquería Echeverría - Santa Fe</title>
-</head>
+    <!-- Title -->
+    <title>Arquería Club Echeverría - Santa Fe</title>
+  </head>
 <body>
-    <header>
-        <!-- LOGO Y NAVEGADOR BOOTSTRAP -->
-        <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgb(255, 102, 0);">
-            <a class="navbar-brand" href="#top">
-                <img width="105" height="105" src="src\assets\img\caee.jpg" alt="">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-0 mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#nosotros">NOSOTROS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#categorias">CATEGORIAS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#torneos">TORNEOS</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contacto">CONTACTO</a>
-                    </li>
-                </ul>
-                <div class="instagram">
-                    <a href="https://www.instagram.com">
-                        <img width="50" height="50" src="src\assets\img\instagram.png" alt="">
-                    </a>
-                </div>
-                <div class="facebook">
-                    <a href="https://www.facebook.com">
-                        <img width="50" height="50" src="src\assets\img\facebook.png" alt="">
-                    </a>
-                </div>
-            </div>
-        </nav>
-    </header>
-
-    <!-- SECCION INDEX -->
-    <section id="#top">
-        <!-- CAROUSEL -->
-        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="10000">
-                    <img width="1800" height="350" src="src\assets\img\imagen-index.jpg" class="d-block w-100" alt="...">
-                </div>
-                <div class="carousel-item" data-bs-interval="2000">
-                    <img width="1860" height="350" src="src\assets\img\Archery-010-2-scaled.jpg" class="d-block w-100" alt="...">
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="navbar navbar-light navbar-expand-md " style="background-color: rgb(255, 179, 0);">
+      <div class="container">
+        <div class="col-2 pl-md-0 text-left">
+          <a href="#top">
+            <img src="src\assets\img\caee.jpg"
+              height="90" alt="image">
+          </a>
         </div>
-        <!-- PAGINAS RELACIONADAS CON EL DEPORTE -->
-        <div class="grid-index">
-            <div class="grid-index1">
-                <div class="card" style="width: 480px;">
-                    <a href="https://waargentina.com.ar/">
-                    <img width="" height="" src="src\assets\img\waargentina2.png" alt=""> 
-                    </a>
-                    <div class="card-body">
-                        <p class="card-text">WORLD ARCHERY ARGENTINA</p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-index2">
-                <div class="card" style="width: 600px;">
-                    <a href="https://www.worldarcheryamericas.com/">
-                    <img width="600" height="187" src="src\assets\img\waamericas.png" alt=""> 
-                    </a> 
-                    <div class="card-body">
-                        <p class="card-text">WORLD ARCHERY AMERICAS</p>
-                    </div>
-                </div> 
-            </div>
-            <div class="grid-index3">
-                <div class="card" style="width: 350px;">
-                    <a href="https://worldarchery.sport/">
-                    <img width="" height="" src="src\assets\img\world-archery.png" alt="">
-                    </a> 
-                    <div class="card-body">
-                        <p class="card-text">WORLD ARCHERY</p>
-                    </div>
-                </div> 
-            </div>
+        <!-- BOTÓN MENÚ RESPONSIVE -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse"
+          data-target="#navbarNav12" aria-controls="navbarNav12"
+          aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- MENÚ BS -->
+        <div class="collapse navbar-collapse justify-content-center col-md-8"
+          id="navbarNav12">
+          <ul class="navbar-nav justify-content-center">
+            <li class="nav-item active">
+              <a class="nav-link" href="#nosotros">Nosotros <span
+                  class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#categorias">Categorias</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#torneos">Torneos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#contacto">Contacto</a>
+            </li>
+          </ul>
         </div>
-    </section>
+        <!-- REDES SOCIALES -->
+        <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex">
+          <li class="nav-item active">
+            <a class="nav-link" href="https://www.facebook.com"><img width="40" height="40" src="src\assets\img\facebook.png"></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com"><img width="40" height="40" src="src\assets\img\instagram.png"></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
 
-    <!-- SECCION 2: NOSOTROS -->
-    <section id="nosotros">
-        <h2>NUESTRO DEPORTE</h2>
-        <div class="grid-deporte">
-            <div class="grid-deporte1" data-aos="fade-right">
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/fQ8oi8dhZjU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="grid-deporte2">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">HISTORIA DEL TIRO CON ARCO</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-deporte3" data-aos="fade-right">
-            <img width="840" height="472">
-            </div>
-            <div class="grid-deporte4">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">NUESTRA ESCUELA</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- CAROUSEL (INDEX) -->
+  <section id="top" >
+    <div id="carouselExampleIndicators" class="carousel slide"
+      data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0"
+          class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"
+          class=""></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block w-100"
+            data-src="holder.js/800x400?auto=yes&amp;bg=777&amp;fg=555&amp;text=First slide"
+            alt="First slide [800x400]"
+            src="src\assets\img\imagen-index.jpg"
+            data-holder-rendered="true">
         </div>
-    </section>
-
-    <!-- SECCION 3: CATEGORIAS -->
-    <section id="categorias">
-    <h2>CATEGORIAS</h2>
-        <div class="grid-categorias">
-            <div class="grid-categoria1" data-aos="fade-right">
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/FR_tmXjJ4p4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="grid-categoria2">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">RECURVADO OLÍMPICO</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-categoria3" data-aos="fade-right">
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/wyFvtExiEvg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="grid-categoria4">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">COMPUESTO</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-categoria5" data-aos="fade-right">
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/OoszhkwXv4g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="grid-categoria6">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">RASO</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-categoria7" data-aos="fade-right">
-            <iframe width="840" height="472" src="https://www.youtube.com/embed/Z4WQD_up15w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="grid-categoria8">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">TRADICIONAL</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
+        <div class="carousel-item">
+          <img class="d-block w-100"
+            data-src="holder.js/800x400?auto=yes&amp;bg=666&amp;fg=444&amp;text=Second slide"
+            alt="Second slide [800x400]"
+            src="src\assets\img\imagen-index-2.jpg"
+            data-holder-rendered="true">
         </div>
-    </section>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators"
+        role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators"
+        role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
+  </section>
 
-    <!-- SECCION 4: TORNEOS -->  
-    <section id="torneos">
-        <h2>TORNEOS</h2>
-        <div class="grid-torneos">
-            <!-- CAROUSEL -->
-            <div class="grid-torneos1" data-aos="fade-right">
-                <div data-aos="fade-right">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img width="840" height="472" src="src\assets\img\caee2.jpg" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img width="840" height="472" src="src\assets\img\torneo.png" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-torneos2">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">NUESTRAS PARTICIPACIONES</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-torneos3" data-aos="fade-right">
-                <!-- CAROUSEL -->
-                <div data-aos="fade-right">
-                    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                            <img width="840" height="472" src="src\assets\img\argentina2.jpg" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img width="840" height="472" src="src\assets\img\argentina3.jpg" alt="...">
-                            </div>
-                            <div class="carousel-item">
-                            <img width="840" height="472" src="src\assets\img\argentina4.jpg" alt="...">
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="grid-torneos4">
-                <div class="card" style="width: 600px;">
-                    <div class="card-body">
-                        <h3 class="card-title">SELECCIONADO NACIONAL</h3>
-                        <p class="card-text">
-                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit blanditiis in ad incidunt tempore nobis dolorum voluptatibus? Soluta, incidunt alias? Atque reprehenderit fugit minus dignissimos! Ratione odio blanditiis illum. Velit.
-                        </p>
-                    </div>
-                </div>
-            </div>
+  <!-- PAGINAS DE INTERES (LOGOS) -->
+  <section class="logos">
+    <div class="container">
+      <div class="row">
+        <a href="https://waargentina.com.ar/" class="card p-2 col-md-4  text-light  border-light" data-target=".bd-example-modal-lg">
+          <img class="card-img h-100 shadow"
+            src="src\assets\img\waargentina.png"
+            alt="Card image">
+        </a>
+        <a href="https://www.worldarcheryamericas.com/en/home/" class="card p-2 col-md-4  text-light  border-light" data-target=".bd-example-modal-lg">
+          <img class="card-img h-100 shadow"
+            src="src\assets\img\waamericas.png"
+            alt="Card image">
+        </a>
+        <a href="https://worldarchery.sport/" class="card p-2 col-md-4  text-light  border-light" data-target=".bd-example-modal-lg">
+          <img class="card-img h-80 shadow"
+            src="src\assets\img\world-archery.png"
+            alt="Card image">
+        </a>
+      </div> 
+    </div>
+  </section>
+
+  <!-- NOSOTROS -->
+  <section id="nosotros" class="nosotros">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+          <h1>Nuestro Deporte</h1>
         </div>
-    </section>
-
-    <!-- SECCION 5: CONTACTO -->
-    <section id="contacto">
-        <h2>CONTACTO</h2>
-        <div class="grid-contacto">
-            <div class="grid-mapa" data-aos="fade-right">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.2612317649653!2d-60.692340511853615!3d-31.632620256972785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95b5a9a83a728251%3A0x540de1ba37258aeb!2sCentro%20Cultural%20y%20Deportivo%20Esteban%20Echeverr%C3%ADa!5e0!3m2!1ses!2sar!4v1639147508384!5m2!1ses!2sar" width="840" height="472" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
-            </div>
-            <div class="grid-formulario">
-                <form action=""> <!-- Acá empezaría el formulario -->
-                </form>
-            </div>
+      </div>
+    </div>
+  </section>
+  <section class="video-deporte">
+    <div class="container">
+      <div class="row align-items-center justify-content-between ">
+        <div class="col-12 col-md-7   mt-4 mt-md-0">
+          <div class="ratio ratio-16x9 shadow">
+            <iframe class="" src="https://www.youtube.com/embed/fQ8oi8dhZjU" allowfullscreen=""></iframe>
+          </div>
         </div>
-    </section>
+        <div class="col-12 col-md-4 ">
+          <h2>Historia</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="video-deporte">
+    <div class="container">
+      <div class="row align-items-center justify-content-between ">
+        <div class="col-12 col-md-7   mt-4 mt-md-0">
+          <div class="ratio ratio-16x9 shadow">
+            <iframe class="" src="https://www.youtube.com/embed/fQ8oi8dhZjU" allowfullscreen=""></iframe>
+          </div>
+        </div>
+        <div class="col-12 col-md-4 ">
+          <h2>Nuestra Escuela</h2>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- SCRIPT DE ANIMACIONES -->
-    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-    <script>AOS.init();</script>
+  <!-- CATEGORIAS -->
+  <section id="categorias" class="categorias">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center">
+          <h1> Categorias</h1>
+        </div>
+      </div>
+    </div>
+    <div class="video-categoria">
+      <div class="container">
+        <div class="row align-items-center justify-content-between ">
+          <div class="col-12 col-md-7 mt-4 mt-md-0">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe class="" src="https://www.youtube.com/embed/FR_tmXjJ4p4" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 ">
+            <h2>Recurvado Olímpico</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-categoria">
+      <div class="container">
+        <div class="row align-items-center justify-content-between ">
+          <div class="col-12 col-md-7   mt-4 mt-md-0">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe class="" src="https://www.youtube.com/embed/wyFvtExiEvg" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 ">
+            <h2>Compuesto</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-categoria">
+      <div class="container">
+        <div class="row align-items-center justify-content-between ">
+          <div class="col-12 col-md-7   mt-4 mt-md-0">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe class="" src="https://www.youtube.com/embed/OoszhkwXv4g" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 ">
+            <h2>Raso</h2>
+              <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="video-categoria">
+      <div class="container">
+        <div class="row align-items-center justify-content-between ">
+          <div class="col-12 col-md-7 mt-4 mt-md-0">
+            <div class="ratio ratio-16x9 shadow">
+              <iframe class="" src="https://www.youtube.com/embed/Z4WQD_up15w" allowfullscreen=""></iframe>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 ">
+            <h2>Tradicional</h2>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nesciunt doloribus omnis eaque libero quas cupiditate quisquam perspiciatis aliquid nihil accusantium! Suscipit architecto tempore dolorem dolore praesentium harum amet saepe eligendi?
+              </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <!-- SCRIPT BOOTSTRAP -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <!-- TORNEOS -->
+  <section id="torneos" class="">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col col-md-8 text-center ">
+          <h1>Torneos</h1>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="image-torneo">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <img alt="image" class="img-fluid"
+            src="src\assets\img\torneo.png">
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 ms-md-auto text-start">
+          <h2>Nuestras Participaciones</h2>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. A consequatur odio praesentium unde tempore, quaerat aliquid porro illo quis tempora ipsum eum laudantium facere dicta et voluptatem molestiae facilis eos.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="image-torneo">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 mb-4 mb-md-0">
+          <img alt="image" class="img-fluid"
+            src="src\assets\img\argentina.jpg">
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 ms-md-auto text-start">
+          <h2>Seleccion Nacional</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni impedit debitis excepturi,modi aliquam accusantium reprehenderit aperiam quidem officia esse accusamus quibusdamexpedita veritatis, voluptate, quis magnam ullam id eveniet.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACTO -->
+  <section id="contacto" class="contacto">
+    <div class="container">
+      <div class="row text-center justify-content-center">
+        <div class="col-12 col-md-8 col-lg-7">
+          <h1>Contacto</h1>
+        </div>
+      </div>
+      <div class="row pt-4">
+        <div class="col-12 col-md-6">
+          <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d849.2612317649653!2d-60692340511853615!3d-31.632620256972785!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f131!3m3!1m2!1s0x95b5a9a83a728251%3A0x540de1ba37258aeb!2sCentro%20Cultural%20y%20Deportivo%20Estban%20Echeverr%C3%ADa!5e0!3m2!1ses!2sar!4v1639147508384!5m2!1ses!2sar"
+            width="100%" height="600" frameborder="0" style="border:0"
+            allowfullscreen=""></iframe>
+        </div>
+      </div>
+      <!-- Formulario -->
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <section class="footer">
+    <div class="container">
+      <div class="row text-center">
+        <div class="col">
+          <p>© 2022. All Rights Reserved</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Script BS-->
+  <script 
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-alpha3/dist/js/bootstrap.bundle.min.js"integrity="sha384-popRpmFF9JQgExhfw5tZT4I9/CI5e2QcuUZPOVXb1m7qUmeR2b50u+YFEYe1wgzy"crossorigin="anonymous">
+  </script>
 </body>
 </html>
