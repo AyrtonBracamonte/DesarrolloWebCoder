@@ -1,25 +1,4 @@
-// Grid inicio
-
-.grid-index {
-    padding-top: 150px;
-    display: grid;
-    grid-template-columns: repeat(3, 32%);
-    grid-template-rows: 300px;
-    grid-column-gap: 15px;
-    grid-row-gap: 0px;
-    .grid-index1 { 
-        grid-area: 1 / 1 / 2 / 2; 
-        padding-left: 80px;
-
-    }
-    .grid-index2 { 
-        grid-area: 1 / 2 / 2 / 3; 
-        padding-left: 20px;
-
-    }
-    .grid-index3 { 
-        grid-area: 1 / 3 / 2 / 4; 
-        padding-left: 130px;
-
-    }
+// Index
+.logos {
+    padding-top: 5%;
 }
