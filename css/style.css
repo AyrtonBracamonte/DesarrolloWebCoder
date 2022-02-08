@@ -41,20 +41,45 @@ header {
   padding-top: 5%;
 }
 
-.video-deporte {
+.video-deporte, .video-categoria, .image-torneo, .contacto {
   padding-bottom: 5%;
 }
 
-.video-categoria {
-  padding-bottom: 5%;
+.boton-facebook, .boton-instagram {
+  position: fixed;
+  right: 1%;
+  z-index: 10;
 }
 
-.image-torneo {
-  padding-bottom: 5%;
+.boton-facebook, .boton-instagram {
+  height: 40px;
+  transition: height 1s;
 }
 
-.contacto {
-  padding-bottom: 4%;
+/* botones redes side */
+.boton-instagram {
+  bottom: 125px;
+}
+
+.boton-facebook {
+  bottom: 75px;
+}
+
+.boton-instagram:hover {
+  height: 45px;
+}
+
+.boton-facebook:hover {
+  height: 45px;
+}
+
+.video {
+  height: 200px;
+  width: 240px;
+  justify-content: center;
+  margin-left: 12%;
+  padding-top: 2%;
+  margin-bottom: 5%;
 }
 
 .footer {

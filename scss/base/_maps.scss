@@ -1,0 +1,18 @@
+// video
+$video: (
+    height: 200px,
+    width: 240px,
+    justify-content: center,
+    margin-left: 12%,
+    padding-top: 2%,
+    margin-bottom: 5%,
+);
+
+.video {
+    height: map-get($video, height);
+    width: map-get($video, width);
+    justify-content: map-get($video, justify-content);
+    margin-left: map-get($video, margin-left);
+    padding-top: map-get($video, padding-top);
+    margin-bottom: map-get($video, margin-bottom);
+}

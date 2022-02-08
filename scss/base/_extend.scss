@@ -1,0 +1,53 @@
+// Extend
+
+%espaciado {
+    padding-bottom: 5%;
+}
+
+%botones {
+    position: fixed;
+    right: 1%;
+    z-index: 10;
+}
+
+%transicion {
+    height: 40px;
+    transition: height 1s;
+}
+
+.contacto {
+    @extend %espaciado;
+}
+
+.image-torneo {
+    @extend %espaciado;
+}
+
+.video-categoria {
+    @extend %espaciado;
+}
+
+.video-deporte {
+    @extend %espaciado;
+}
+
+/* botones redes side */
+.boton-instagram {
+    @extend %botones;
+    bottom: 125px;
+    @extend %transicion;
+}
+.boton-facebook {
+    @extend %botones;
+    bottom: 75px;
+    @extend %transicion;
+}
+
+// hover de las transiciones
+.boton-instagram:hover {
+    height: 45px;
+}
+
+.boton-facebook:hover {
+    height: 45px;
+}
