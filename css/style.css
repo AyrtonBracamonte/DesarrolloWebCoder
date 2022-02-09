@@ -49,28 +49,20 @@ header {
   position: fixed;
   right: 1%;
   z-index: 10;
-}
-
-.boton-facebook, .boton-instagram {
   height: 40px;
   transition: height 1s;
 }
 
-/* botones redes side */
+.boton-facebook:hover, .boton-instagram:hover {
+  height: 45px;
+}
+
 .boton-instagram {
   bottom: 125px;
 }
 
 .boton-facebook {
   bottom: 75px;
-}
-
-.boton-instagram:hover {
-  height: 45px;
-}
-
-.boton-facebook:hover {
-  height: 45px;
 }
 
 .video {
