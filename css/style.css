@@ -9,14 +9,14 @@ body {
   font-family: "Roboto";
 }
 
-h1 {
+h2 {
   font-size: 50px;
   padding-top: 15%;
   padding-bottom: 5%;
   text-align: center;
 }
 
-h2 {
+h3 {
   font-size: 35px;
   text-align: center;
   font-style: italic;
