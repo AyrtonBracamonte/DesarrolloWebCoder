@@ -4,15 +4,16 @@
     padding-bottom: 5%;
 }
 
-%botones {
+%botones-transicion{
     position: fixed;
     right: 1%;
     z-index: 10;
-}
-
-%transicion {
     height: 40px;
     transition: height 1s;
+}
+
+%hover {
+    height: 45px;
 }
 
 .contacto {
@@ -31,23 +32,23 @@
     @extend %espaciado;
 }
 
-/* botones redes side */
-.boton-instagram {
-    @extend %botones;
-    bottom: 125px;
-    @extend %transicion;
-}
-.boton-facebook {
-    @extend %botones;
-    bottom: 75px;
-    @extend %transicion;
-}
-
+// botones redes side
 // hover de las transiciones
+
 .boton-instagram:hover {
-    height: 45px;
+    @extend %hover;
 }
 
 .boton-facebook:hover {
-    height: 45px;
+    @extend %hover;
+}
+
+.boton-instagram {
+    @extend %botones-transicion;
+    bottom: 125px;
+}
+
+.boton-facebook {
+    @extend %botones-transicion;
+    bottom: 75px;
 }
