@@ -9,12 +9,12 @@ body {
   font-family: "Roboto";
 }
 
+.image-categoria {
+  width: 100%;
+}
+
 @media screen and (max-width: 767px) {
   .texto {
-    display: none;
-  }
-
-  .carousel-wide {
     display: none;
   }
 
@@ -32,10 +32,6 @@ body {
 }
 @media screen and (min-width: 768px) {
   .texto2 {
-    display: none;
-  }
-
-  .carousel-heigth {
     display: none;
   }
 }
